@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Binaries
+*.exe
+go-bot-linux
+*.dll
+*.so
+*.dylib
+
+# Test files
+*.test
+
+# Go workspace
+go.work
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug
+__debug_bin*

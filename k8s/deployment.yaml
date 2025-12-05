@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-bot
+  labels:
+    app: go-bot
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: go-bot
+  template:
+    metadata:
+      labels:
+        app: go-bot
+    spec:
+      containers:
+      - name: go-bot
+        image: your-registry/go-bot:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: GROQ_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: go-bot-secrets
+              key: groq-api-key
+        - name: QDRANT_HOST
+          value: "qdrant-service"
+        - name: QDRANT_PORT
+          value: "6334"
+        - name: PORT
+          value: "8080"
+        - name: COLLECTION_NAME
+          value: "knowledge_base"
+        - name: EMBEDDING_DIM
+          value: "768"
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 3
+          periodSeconds: 5
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-bot-service
+spec:
+  selector:
+    app: go-bot
+  ports:
+  - port: 80
+    targetPort: 8080
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: go-bot-secrets
+type: Opaque
+stringData:
+  groq-api-key: "your-groq-api-key-here"  # Replace with actual key

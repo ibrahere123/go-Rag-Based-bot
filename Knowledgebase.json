@@ -1,0 +1,1443 @@
+[
+    {
+        "id": "AUTH_001",
+        "module": "Auth",
+        "topic": "Sign In Process",
+        "roles": [
+            "All Users",
+            "Employee",
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I sign in?",
+            "I want to log into the portal",
+            "Where do I enter my credentials?",
+            "I cannot access the dashboard, how do I login?",
+            "What are the steps to log in?",
+            "Where is the login screen?",
+            "Take me to the sign in instructions",
+            "How do I access my account?"
+        ],
+        "answer": "To sign in, navigate to the login page. You need to: 1. Enter the Email Address associated with your account. 2. Enter your account Password. 3. Click the 'Sign In' button to access your account."
+    },
+    {
+        "id": "AUTH_002",
+        "module": "Auth",
+        "topic": "Sign Up / Create Account",
+        "roles": [
+            "New User",
+            "Guest"
+        ],
+        "query_variations": [
+            "How do I create a new account?",
+            "I am a new user, how do I sign up?",
+            "What details are needed for registration?",
+            "How to register an organization?",
+            "I don't have an account yet",
+            "Where is the registration form?",
+            "Steps to make a new profile",
+            "Sign up process"
+        ],
+        "answer": "To create a new account, go to the Sign Up form. You must fill in the following required fields: First Name, Last Name, a valid Email Address, Organization Name (to link your account), Password, and Confirm Password. Once all fields are filled, click the 'Sign Up' button."
+    },
+    {
+        "id": "AUTH_003",
+        "module": "Auth",
+        "topic": "Organization Name Field",
+        "roles": [
+            "New User"
+        ],
+        "query_variations": [
+            "What is the Organization Name field for?",
+            "Why do I need to enter an organization name?",
+            "What should I put in Organization Name?",
+            "Is Organization Name mandatory?",
+            "Linking account to organization"
+        ],
+        "answer": "The Organization Name is a mandatory field during Sign Up. You must enter the name of your organization to correctly link your new account to a specific organization within the platform."
+    },
+    {
+        "id": "AUTH_004",
+        "module": "Auth",
+        "topic": "Forgot Password Request",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "I forgot my password",
+            "How do I request a password reset?",
+            "Where is the forgot password button?",
+            "I can't remember my login details",
+            "My password isn't working",
+            "Help me recover my account",
+            "Send me a password reset link"
+        ],
+        "answer": "If you forgot your password: 1. Click the 'Forgot Password?' button on the login screen. 2. Enter the Email Address registered with your account. 3. Click the 'Submit' button. You will receive a reset link in your email inbox."
+    },
+    {
+        "id": "AUTH_005",
+        "module": "Auth",
+        "topic": "Reset Password Execution",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I use the reset password link?",
+            "What do I do after receiving the reset email?",
+            "Steps to set a new password",
+            "I got the email, how do I change the password?",
+            "Confirming new password",
+            "Resetting password process"
+        ],
+        "answer": "Open the password reset email sent to your inbox and follow these steps: 1. Click the 'Reset Password' button/link in the email. 2. In the browser window that opens, enter your New Password in the first field. 3. Re-enter the password in the Confirm Password field (they must match). 4. Click 'Submit' to replace your old password with the new one."
+    },
+    {
+        "id": "AUTH_006",
+        "module": "Auth",
+        "topic": "Password Complexity Rules",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "What are the password requirements?",
+            "Why is my password not being accepted?",
+            "What is considered a strong password?",
+            "Does the password need special characters?",
+            "Password policy",
+            "Minimum password length",
+            "Can I use a simple password?"
+        ],
+        "answer": "The system requires a strong password for security. It must contain a minimum of 8 characters and include at least: one uppercase letter (A-Z), one lowercase letter (a-z), one digit (0-9), and one special character (e.g., !, @, #)."
+    },
+    {
+        "id": "AUTH_007",
+        "module": "Auth",
+        "topic": "Reset Link Expiry",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How long is the reset link valid?",
+            "My reset link isn't working",
+            "Does the password reset link expire?",
+            "Why does the link say expired?",
+            "Validity of forgot password email"
+        ],
+        "answer": "The password reset link sent to your email will expire in exactly one hour. If you do not click the link and reset your password within this time, you must request a new one via the 'Forgot Password' page."
+    },
+    {
+        "id": "AUTH_008",
+        "module": "Auth",
+        "topic": "Email Address Requirement",
+        "roles": [
+            "All Users",
+            "New User"
+        ],
+        "query_variations": [
+            "Which email should I use?",
+            "Can I use any email address?",
+            "Why is email required?",
+            "Login username or email?"
+        ],
+        "answer": "You must provide a valid email address during Sign Up. This email is used to identify your account during Sign In and is necessary for sending account-related notifications, such as password reset links."
+    },
+    {
+        "id": "PROFILE_001",
+        "module": "My Profile",
+        "topic": "Accessing Profile Menu",
+        "roles": [
+            "All Users",
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I access my profile?",
+            "Where is the profile menu?",
+            "I want to see my personal settings",
+            "Where can I find the My Profile section?",
+            "Open my account details",
+            "Where is the profile picture button?"
+        ],
+        "answer": "To access your profile, click your profile picture located in the top-right corner of the screen. In the dropdown menu that appears, hover over 'My Profile' to see options like Personal, Policies, and Payslips."
+    },
+    {
+        "id": "PROFILE_002",
+        "module": "My Profile",
+        "topic": "Viewing Personal Information",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "What information is on my profile page?",
+            "How do I check my joining date?",
+            "Where can I see my employee ID?",
+            "View my basic details",
+            "Check my designation and status",
+            "Where is my date of birth listed?"
+        ],
+        "answer": "Navigate to 'My Profile' -> 'Personal'. This page displays your Basic Information (Joining Date, DOB, Email, Phone, Blood Group, Gender, National ID), Employment Status (Job Type, Active Status, Designation), and Assigned Locations."
+    },
+    {
+        "id": "PROFILE_003",
+        "module": "My Profile",
+        "topic": "Editing Basic Profile Info",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I edit my profile?",
+            "I want to change my phone number",
+            "Can I update my profile picture?",
+            "How to correct my name spelling?",
+            "Update my marital status",
+            "Change my blood group"
+        ],
+        "answer": "To make changes, go to 'My Profile' -> 'Personal' and click the 'Edit Profile' button in the top right corner. In the 'Basic Information' section, you can update your First Name, Last Name, Phone Number, Date of Birth, Blood Group, Marital Status, Gender, and upload a new Profile Photo."
+    },
+    {
+        "id": "PROFILE_004",
+        "module": "My Profile",
+        "topic": "Emergency Contact Management",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I add an emergency contact?",
+            "Update my emergency contact details",
+            "Where do I put my father's contact info?",
+            "Changing next of kin details",
+            "Emergency contact fields"
+        ],
+        "answer": "In the 'Edit Profile' form, scroll down to the 'Emergency Contact' section. You must fill in the Full Name, Relation (e.g., Father, Spouse), National ID, and Phone Number of your contact person. This ensures the company knows who to call in an emergency."
+    },
+    {
+        "id": "PROFILE_005",
+        "module": "My Profile",
+        "topic": "Updating Address",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "I moved house, how do I update my address?",
+            "Change my permanent address",
+            "Update temporary address",
+            "My permanent address is the same as my current one",
+            "Address fields in profile"
+        ],
+        "answer": "In the 'Edit Profile' form, locate the 'Address' section. You can enter a Temporary Address and a Permanent Address. If both are the same, simply check the 'Same as Temporary Address' box to auto-fill the permanent address field."
+    },
+    {
+        "id": "PROFILE_006",
+        "module": "My Profile",
+        "topic": "Bank Details Management",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I update my bank account?",
+            "Where do I enter my IBAN?",
+            "Change bank details for salary",
+            "Add my bank account number",
+            "Banking information fields"
+        ],
+        "answer": "In the 'Edit Profile' menu, click on the 'Details' option (or scroll to the Bank Details section depending on view). You need to enter your Bank Name (e.g., HBL, Meezan), Branch Name, Account Title (your name as it appears in the bank), and your IBAN/Account Number. Accurate details are required for salary processing."
+    },
+    {
+        "id": "PROFILE_007",
+        "module": "My Profile",
+        "topic": "Document Management",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I upload my resume?",
+            "Where can I see my uploaded documents?",
+            "Can I download my contract?",
+            "Upload identity card copy",
+            "View my personal files"
+        ],
+        "answer": "To manage files, go to the 'Documents' section in the 'Edit Profile' form. You can select a document type (Resume, Identity Card, Degree, etc.) and click 'Upload Document'. To view or download existing files, go to the main 'Personal' page and look at the Documents table at the bottom."
+    },
+    {
+        "id": "PROFILE_008",
+        "module": "My Profile",
+        "topic": "Updating Credentials (PIN & Password)",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I change my login password?",
+            "I want to change my terminal PIN",
+            "Update security credentials",
+            "Set a new PIN for attendance",
+            "Change portal password"
+        ],
+        "answer": "To update security settings, open 'Edit Profile' and scroll to the 'Credentials' section. Here you can enter a 'New PIN' (4 digits for attendance terminals) or a 'New Password' for the portal. Remember to click 'Save & Exit' to apply the changes."
+    },
+    {
+        "id": "PROFILE_009",
+        "module": "My Profile",
+        "topic": "Company Policies",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "Where can I read company policies?",
+            "How do I find the leave policy?",
+            "View compliance documents",
+            "Access policy manager for employees",
+            "Read WFH guidelines"
+        ],
+        "answer": "To view company guidelines, click your profile picture and select 'Policies'. This page lists all policies applicable to you (like Leave Policy, WFH Policy). Click on a policy row to expand it and read the full summary or detailed information."
+    },
+    {
+        "id": "PROFILE_010",
+        "module": "My Profile",
+        "topic": "Payslips",
+        "roles": [
+            "All Users",
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I download my payslip?",
+            "Where can I see my salary slip?",
+            "Check my monthly pay",
+            "Download PDF payslip",
+            "View past salary statements"
+        ],
+        "answer": "To access your salary statements, click your profile picture and select 'Payslips'. The page displays a list of monthly payslips. Find the relevant month and click 'Click To View Pay Slip' to open or download the PDF file."
+    },
+    {
+        "id": "PROFILE_011",
+        "module": "My Profile",
+        "topic": "Saving Profile Changes",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I save my profile edits?",
+            "What is the difference between Save & Next and Save & Exit?",
+            "Do I have to save before leaving the page?",
+            "Closing the edit profile form"
+        ],
+        "answer": "At the bottom of the Edit Profile form, use 'Save & Next' to save the current section and move to the next one. Use 'Save & Exit' to save all changes and close the form. Clicking 'Next' without saving may result in lost data."
+    },
+    {
+        "id": "ROTA_001",
+        "module": "My Rota",
+        "topic": "Accessing My Rota",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I access my rota?",
+            "Where is my schedule located?",
+            "Open My Rota section",
+            "I want to see my work calendar",
+            "Where are my shifts and requests?"
+        ],
+        "answer": "To access your schedule and requests, click on 'My Rota' in the side navigation bar. This section contains your Shifts, Attendance records, Requests, Leave Balance, and Reports."
+    },
+    {
+        "id": "ROTA_002",
+        "module": "My Rota",
+        "topic": "Viewing Work Schedule (Shifts)",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I check my shifts for next week?",
+            "View my weekly schedule",
+            "See my monthly roster",
+            "What shift am I on tomorrow?",
+            "How to switch between weekly and monthly views?"
+        ],
+        "answer": "Go to 'My Rota' -> 'Shifts'. By default, it shows the Weekly View. Use the arrow keys at the top to navigate between weeks. To see the full month's schedule, click the 'Month' button in the top right corner. Each day block displays your assigned shift (e.g., Morning, Evening) or off days."
+    },
+    {
+        "id": "ROTA_003",
+        "module": "My Rota",
+        "topic": "Viewing Attendance History",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I check my attendance record?",
+            "View my clock in and out history",
+            "See if I was late last week",
+            "Switch attendance view to table",
+            "Check total hours worked"
+        ],
+        "answer": "Navigate to 'My Rota' -> 'Attendance'. You can view records in 'Grid' or 'Table' format. Use the date arrows to switch months. The table displays the Date, Scheduled Time, Actual Clock In/Out times, Breaks, and Total Hours worked. Lateness or early exits are often highlighted."
+    },
+    {
+        "id": "ROTA_004",
+        "module": "My Rota",
+        "topic": "Requests Overview",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "Where do I submit a new request?",
+            "How to check the status of my leave request?",
+            "Filter my past requests",
+            "See if my WFH was approved",
+            "Withdraw a pending request"
+        ],
+        "answer": "Go to 'My Rota' -> 'Requests'. Here you can view all your submitted requests. Use the filters at the top to search by Date Range, Request Type (Leaves, WFH, etc.), or Status (Pending, Approved, Declined). To submit a new one, click the '+ Add' button."
+    },
+    {
+        "id": "ROTA_005",
+        "module": "My Rota",
+        "topic": "Submitting a Leave Request",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I apply for annual leave?",
+            "Submit a sick leave request",
+            "Request time off",
+            "What fields are needed for leave application?",
+            "Upload medical certificate for leave"
+        ],
+        "answer": "To apply for leave: 1. Go to 'Requests' -> '+ Add'. 2. Select the 'Leaves' tab. 3. Choose the 'Leave Type' (e.g., Annual, Sick). 4. Select 'Start Date' and 'End Date'. 5. Optionally add a Message or Attachment (like a medical note). 6. Click 'Submit'."
+    },
+    {
+        "id": "ROTA_006",
+        "module": "My Rota",
+        "topic": "Submitting a Short Leave Request",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I request a short leave?",
+            "I need to leave work for 2 hours",
+            "Apply for partial day off",
+            "Short leave application steps",
+            "Can I take a half day?"
+        ],
+        "answer": "For short durations: 1. Click '+ Add' in Requests and select 'Short Leaves'. 2. Select 'Leave Type' and 'Leave Date'. 3. Select your specific 'Shift' for that day. 4. Enter the specific 'Start Time' and 'End Time' for your leave. 5. Click 'Submit'."
+    },
+    {
+        "id": "ROTA_007",
+        "module": "My Rota",
+        "topic": "Work From Home (WFH) Request",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I request to work from home?",
+            "Apply for remote work",
+            "WFH application process",
+            "Do I need a balance for WFH?",
+            "Submit WFH dates"
+        ],
+        "answer": "To request WFH: 1. Click '+ Add' in Requests and select 'Work From Home'. 2. Enter the 'Start Date' and 'End Date'. 3. Provide a reason if required. 4. Click 'Submit'. Note: You must have an available WFH leave balance to submit this request."
+    },
+    {
+        "id": "ROTA_008",
+        "module": "My Rota",
+        "topic": "Clock In/Out Correction Request",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "I forgot to clock in, what do I do?",
+            "Fix missed attendance punch",
+            "Submit manual attendance correction",
+            "I forgot to clock out",
+            "Correct my time sheet"
+        ],
+        "answer": "If you missed a punch: 1. Click '+ Add' in Requests and select 'Clock In/Clock Out Request'. 2. Select the 'Shift Date' and the specific 'Shift'. 3. Check 'Clock In Request' (if you missed start) or 'Clock Out Request' (if you missed end). 4. Enter a reason (e.g., 'System Error') and click 'Submit'."
+    },
+    {
+        "id": "ROTA_009",
+        "module": "My Rota",
+        "topic": "Shift Change Request",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "How do I request a shift change?",
+            "Can I swap my shift?",
+            "Request to move from morning to evening shift",
+            "Change shift application",
+            "Submit shift swap"
+        ],
+        "answer": "To change your shift: 1. Click '+ Add' in Requests and select 'Shift Changes'. 2. Select the 'Shift Date' you wish to change. 3. Enter a 'Reason for Shift Change' (Mandatory). 4. Click 'Submit'. This sends a request to your manager for approval."
+    },
+    {
+        "id": "ROTA_010",
+        "module": "My Rota",
+        "topic": "Checking Leave Balance",
+        "roles": [
+            "Employee"
+        ],
+        "query_variations": [
+            "How many leaves do I have left?",
+            "Check my annual leave quota",
+            "View remaining WFH days",
+            "Where is my leave balance?"
+        ],
+        "answer": "Go to 'My Rota' -> 'Leave Balance'. This section provides a consolidated view of your total allocated leaves, used leaves, and remaining balance for all categories (Annual, Sick, Casual, WFH, etc.)."
+    },
+    {
+        "id": "EMS_CORE_001",
+        "module": "EMS (Accountability)",
+        "topic": "Creating a New Team",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I create a new team in the system?",
+            "Add a department",
+            "Where is the Add Team button?",
+            "Setting up a new group",
+            "Accountability settings"
+        ],
+        "answer": "Navigate to 'EMS' -> 'Accountability'. Click the '+ Add Team' button. Enter the 'Team Name' in the text field and click 'Submit'. Once created, you can select this team from the dropdown menu to manage its activities."
+    },
+    {
+        "id": "EMS_CORE_002",
+        "module": "EMS (Accountability)",
+        "topic": "Creating Designations",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I create a new job title?",
+            "Add a designation",
+            "Define roles and responsibilities",
+            "Assign users to a designation",
+            "Where to manage job roles?"
+        ],
+        "answer": "In 'EMS' -> 'Accountability', look for the Designation section (or click 'Add Designation'). You must enter the 'Name' of the designation (e.g., Senior Developer). Optionally, you can add a description of 'Roles and Responsibilities' and immediately assign 'Users' to this designation using the dropdown. Click 'Save' to finish."
+    },
+    {
+        "id": "EMS_CORE_003",
+        "module": "EMS (Accountability)",
+        "topic": "Viewing Team Activity Logs",
+        "roles": [
+            "Admin",
+            "Manager"
+        ],
+        "query_variations": [
+            "How do I see who changed what in a team?",
+            "View audit logs for a team",
+            "Check activity history",
+            "Who deleted a record?",
+            "Filter logs by event type"
+        ],
+        "answer": "In 'EMS' -> 'Accountability', select a team and click the 'Activity' button. This opens a modal showing logs of actions (Created, Updated, Deleted). You can filter these logs by Employee, Event Type, or Date Range to track specific changes within the team."
+    },
+    {
+        "id": "EMS_CORE_004",
+        "module": "EMS (Employees)",
+        "topic": "Inviting a New Employee",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I add a new user to the system?",
+            "Send an invitation to a new hire",
+            "Employee onboarding process",
+            "What fields are required to invite someone?",
+            "Where is the Invite button?"
+        ],
+        "answer": "Go to 'EMS' -> 'Employees' and click the '+ Invite' button. You must fill in the following mandatory fields: Employee Number, Joining Date, First Name, Last Name, and Email Address. Click 'Submit' to send the invitation email to the user."
+    },
+    {
+        "id": "EMS_CORE_005",
+        "module": "EMS (Employees)",
+        "topic": "Managing Invited Users",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I check if an employee accepted the invite?",
+            "Resend an invitation",
+            "View pending invitations",
+            "Check invited users list",
+            "Filter invitations by status"
+        ],
+        "answer": "In 'EMS' -> 'Employees', click the 'Invited Users' button. This displays a list of all sent invitations. You can search by name/email or use the 'Filter' dropdown to view invitations by status: Sent, Pending, Accepted, Declined, or Expired. This helps in tracking onboarding progress."
+    },
+    {
+        "id": "EMS_CORE_006",
+        "module": "EMS (Employees)",
+        "topic": "Employee List & Activity",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "Where is the master list of all employees?",
+            "How to search for an employee details?",
+            "View employee system activity",
+            "Access employee database"
+        ],
+        "answer": "The main 'Employees' screen in EMS displays the directory of all users. You can use the search bar to find specific profiles. Clicking the 'Activity' button on this screen allows you to view system-wide user actions, filtered by employee or event type."
+    },
+    {
+        "id": "EMS_OPS_001",
+        "module": "EMS Operations",
+        "topic": "Rota Management Overview",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "What is Rota Management?",
+            "How do I manage shifts and terminals?",
+            "Where are the attendance settings?",
+            "Accessing rota tools"
+        ],
+        "answer": "In EMS, **Rota Management** is the section used to manage Shifts, Attendance records, and Terminal devices. You can expand this menu to access specific sub-modules like 'Terminals' and 'Terminal Users' [cite: 1005-1009]."
+    },
+    {
+        "id": "EMS_OPS_002",
+        "module": "EMS Operations",
+        "topic": "Managing Terminals (Hardware)",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I add a new attendance machine?",
+            "Setting up a terminal",
+            "Where do I enter the terminal password?",
+            "Create a new terminal",
+            "Edit terminal settings"
+        ],
+        "answer": "To add a device, go to **EMS** -> **Rota Management** -> **Terminals** and click **+ Add**. You must enter the **Name** (label), a secure **Password** for authentication, and optionally assign **Designations** (to restrict usage) and a **Location**. [cite_start]You can also **Copy**, **Edit**, or **Delete** existing terminals [cite: 1046-1074]."
+    },
+    {
+        "id": "EMS_OPS_003",
+        "module": "EMS Operations",
+        "topic": "Terminal Activity Logs",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I see who used a terminal?",
+            "Check terminal logs",
+            "View clock in history for a specific device",
+            "Terminal activity report"
+        ],
+        "answer": "In the **Terminals** section, click the **Activity** button. [cite_start]This opens a log of attendance actions performed on that specific device, allowing you to view which employees clocked in/out and when [cite: 1049-1051]."
+    },
+    {
+        "id": "EMS_OPS_004",
+        "module": "EMS Operations",
+        "topic": "Registering Terminal Users",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I give an employee access to a terminal?",
+            "Assigning a PIN to a user",
+            "Registering a user for biometric attendance",
+            "Where do I set up the attendance PIN?"
+        ],
+        "answer": "Go to **EMS** -> **Rota Management** -> **Terminal Users** and click **+ Add**. You must enter the user's **Name**, create a 4-digit **Pin** (for authentication), and select which **Terminals** they are allowed to access from the dropdown list. [cite_start]Click **Submit** to save [cite: 1084-1100]."
+    },
+    {
+        "id": "EMS_OPS_005",
+        "module": "EMS Operations",
+        "topic": "Admin Attendance View",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I view all employee attendance?",
+            "Admin check for attendance",
+            "Filter attendance by location",
+            "Can I use AI to analyze attendance?"
+        ],
+        "answer": "Navigate to **EMS** -> **Rota Management** -> **Attendance**. You can filter records by **Select Location** or **Select Shift Type** (e.g., Open Shift). You can toggle views between **Calendar**, **Grid**, and **Table**. [cite_start]There is also an **AI Assistant** button to provide smart insights like 'Who was absent most in August?' [cite: 1013-1036]."
+    },
+    {
+        "id": "EMS_OPS_006",
+        "module": "EMS Operations",
+        "topic": "Public Events (Holidays)",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I add a public holiday?",
+            "Create a company event",
+            "Where is the event calendar?",
+            "Marking Independence Day"
+        ],
+        "answer": "Go to **EMS** -> **Public Events**. This shows a calendar view of the year. Click **+ Add Event** to create a new holiday or event by entering the name, date, description, and location. [cite_start]These events will be visible to all employees [cite: 1104-1121]."
+    },
+    {
+        "id": "EMS_OPS_007",
+        "module": "EMS Operations",
+        "topic": "Live Attendance & Tracking",
+        "roles": [
+            "Admin",
+            "Manager"
+        ],
+        "query_variations": [
+            "How do I see who is working right now?",
+            "Real-time attendance monitoring",
+            "View live tracking timeline",
+            "Check active employees"
+        ],
+        "answer": "Go to **EMS** -> **Reports**. **Live Attendance** shows real-time status including check-in times and locations. [cite_start]**Live Tracking** displays a 24-hour timeline bar for each employee, showing active work sessions in blue and the current time with a red dashed line [cite: 1126-1155]."
+    },
+    {
+        "id": "EMS_OPS_008",
+        "module": "EMS Operations",
+        "topic": "Time Attendance Reporting",
+        "roles": [
+            "Admin",
+            "Manager"
+        ],
+        "query_variations": [
+            "How do I generate a lateness report?",
+            "View total working hours for the month",
+            "Attendance summary report",
+            "Check late entries per employee"
+        ],
+        "answer": "Navigate to **EMS** -> **Reports** -> **Time & Attendance**. You can select the report type: **Lateness** (shows total late entries) or **Working Hours** (shows total hours). [cite_start]You can group this data by **Date**, **Monthly**, or **Yearly** to analyze trends [cite: 1162-1183]."
+    },
+    {
+        "id": "EMS_OPS_009",
+        "module": "EMS Operations",
+        "topic": "Admin Request Management",
+        "roles": [
+            "Admin",
+            "Manager"
+        ],
+        "query_variations": [
+            "Where do I approve employee requests?",
+            "How do I add a new user to the system?",
+            "Filter requests by status",
+            "Admin view for shift changes"
+        ],
+        "answer": "Go to **EMS** -> **Requests**. This is a centralized view for all employee requests (Leave, WFH, Shift Changes, etc.). [cite_start]You can filter by **Status** (Pending, In Process, Approved, Declined) or use the **For Approval** filter to see items requiring your immediate action [cite: 1184-1212]."
+    },
+    {
+        "id": "POLICY_001",
+        "module": "Policy Manager",
+        "topic": "Policy Manager Overview",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "What is the Policy Manager?",
+            "Where do I set up company rules?",
+            "Manage leave and shift guidelines",
+            "Accessing policy settings",
+            "What types of policies can I create?"
+        ],
+        "answer": "The **Policy Manager** in EMS is the central hub where you define and enforce organizational rules. You can create four specific types of policies: **Leaves** (allowances and rules), **Work From Home** (remote work quotas), **Change Shift** (rules for swapping shifts), and **Shift Policies** (timings, breaks, and overtime rules) [cite: 1224-1230]."
+    },
+    {
+        "id": "POLICY_002",
+        "module": "Policy Manager",
+        "topic": "AI Policy Assistant",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "Can AI write the policy for me?",
+            "How do I use the AI Assistant for policies?",
+            "Generate a leave policy automatically",
+            "Drafting rules using AI"
+        ],
+        "answer": "Yes, the **AI Assistant** button is available in the policy sections. You can enter your requirements in plain text (e.g., '10 annual leaves with carry forward' or 'Overtime paid at 2% per hour'), and the AI will generate a complete policy draft for you to review and save. [cite_start]This feature is available for Leave and Shift policies [cite: 1232-1235, 1349-1352, 1408-1411, 1477-1480]."
+    },
+    {
+        "id": "POLICY_003",
+        "module": "Policy Manager",
+        "topic": "Create Leave Policy - Basics (Step 1 & 2)",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I start a new leave policy?",
+            "Setting up annual leave dates",
+            "Assigning leave policy to employees",
+            "Step 1 and 2 of leave creation",
+            "Targeting specific users for leave rules"
+        ],
+        "answer": "To create a Leave Policy: 1. Go to **Policy Manager** -> **Leaves** -> **+ Add**. 2. **Step 1 (Details):** Enter the Policy Title, Start Date, End Date, and any Notes. 3. **Step 2 (Implement On):** Select the employees this applies to. [cite_start]You can select individual users or use **User Filters** to apply it to groups like 'Full-time' or 'Probation' staff [cite: 1236-1280]."
+    },
+    {
+        "id": "POLICY_004",
+        "module": "Policy Manager",
+        "topic": "Leave Policy Rules - Step 3",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I set the total number of leaves?",
+            "Configuring sandwich leave rules",
+            "What is Balance Type?",
+            "Allow unpaid or short leaves",
+            "Define sandwich rule for weekends"
+        ],
+        "answer": "In **Step 3 (Leave Details)**, select the **Leave Type** (e.g., Annual). Then configure: 1. **Total Leave:** Number of days/hours allowed. 2. **Balance Type:** Choose 'Days' or 'Hours'. 3. **Sandwich Leaves:** Check boxes to count weekends/holidays as leave if they fall between taken leaves (e.g., 'Before and After Weekend'). 4. [cite_start]Options to **Allow Short Leave** or **Allow Unpaid Leave** [cite: 1287-1308]."
+    },
+    {
+        "id": "POLICY_005",
+        "module": "Policy Manager",
+        "topic": "Leave Deduction Rules - Step 4",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I deduct salary for unpaid leave?",
+            "Setting up leave deductions",
+            "Deduct percentage of salary for absence",
+            "Fixed amount deduction for leave",
+            "Configuring penalty for leave"
+        ],
+        "answer": "In **Step 4 (Deductions)**, you define financial penalties for the leave type. You can set a **Percentage per Hour/Day** (e.g., 10% of salary per day) or click **+ Add Deduction** to set a fixed **Amount per Hour/Day** (e.g., 500 PKR). [cite_start]Click **Save** to finalize the policy [cite: 1314-1332]."
+    },
+    {
+        "id": "POLICY_006",
+        "module": "Policy Manager",
+        "topic": "Work From Home (WFH) Policy",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I set WFH limits?",
+            "Creating a remote work policy",
+            "Assigning WFH days to employees",
+            "WFH policy configuration"
+        ],
+        "answer": "Go to **Policy Manager** -> **Work From Home** -> **+ Add**. 1. **Step 1:** Enter the Policy Title, **Total WFH** quota (e.g., 5 Days), and the date range. 2. **Step 2:** Select the users or employment types (e.g., 'Full-time') this policy applies to. [cite_start]Click **Save** to activate [cite: 1345-1394]."
+    },
+    {
+        "id": "POLICY_007",
+        "module": "Policy Manager",
+        "topic": "Change Shift Policy",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I limit shift swap requests?",
+            "Creating a policy for changing shifts",
+            "Set recurring dates for shift changes",
+            "Allow employees to request shift changes"
+        ],
+        "answer": "Go to **Policy Manager** -> **Change Shift** -> **+ Add**. 1. **Step 1:** Define the Title and **Total Change Shift Requests** allowed (e.g., 3). Set **Recurring Dates** (Weekly/Monthly) to determine when the quota resets. 2. **Step 2:** Assign the policy to specific users or groups via filters. [cite_start]Click **Save** [cite: 1404-1459]."
+    },
+    {
+        "id": "POLICY_008",
+        "module": "Policy Manager",
+        "topic": "Shift Policy - Basics (Step 1 & 2)",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I create a standard work shift?",
+            "Defining a morning shift policy",
+            "Assigning shift rules to a department",
+            "Setting up recurring shift patterns"
+        ],
+        "answer": "Go to **Policy Manager** -> **Shift Policies** -> **+ Add**. 1. **Step 1:** Name the policy (e.g., '9-5 Standard'), set dates, and choose **Frequency** (Weekly/Monthly/Yearly) for auto-updates. 2. [cite_start]**Step 2:** Select the target Users or use filters to assign this shift structure to specific employee types [cite: 1472-1517]."
+    },
+    {
+        "id": "POLICY_009",
+        "module": "Policy Manager",
+        "topic": "Shift Policy Rules (Tolerance) - Step 3",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I set late arrival tolerance?",
+            "How do I configure early exit rules?",
+            "Defining break times and grace periods",
+            "How early can someone clock in?"
+        ],
+        "answer": "In **Step 3 (Policy Rules)**, you define the strictness of the shift: 1. **Late Clock-In Tolerance:** Minutes allowed before marking 'Late' (e.g., 10 mins). 2. **Early Clock-Out Tolerance:** Grace period for leaving early. 3. **Late Break:** Tolerance for returning from breaks. 4. [cite_start]**Early Clock-In Allowance:** How early the system accepts a punch before shift start [cite: 1518-1525]."
+    },
+    {
+        "id": "POLICY_010",
+        "module": "Policy Manager",
+        "topic": "Shift Compensation (Overtime) - Step 4",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I set up overtime pay?",
+            "Configuring shift bonuses",
+            "Setting deductions for missing shift rules",
+            "Overtime calculation rules"
+        ],
+        "answer": "In **Step 4 (Compensation)**, you define financial rules: 1. **Overtime Bonuses:** Set percentage per hour/minute or fixed amounts. 2. **Shift Bonuses:** Extra pay for completing shifts. 3. **Deductions:** Penalties for policy violations. [cite_start]You can define these as percentages of salary or fixed gross amounts [cite: 1526-1550]."
+    },
+    {
+        "id": "POLICY_011",
+        "module": "Policy Manager",
+        "topic": "Public Event Bonuses - Step 5",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I set double pay for holidays?",
+            "Bonuses for working on Independence Day",
+            "Public event overtime rules",
+            "Compensating holiday work"
+        ],
+        "answer": "In **Step 5 (Public Events)**, you can select specific holidays (created in the Public Events module) and assign special **Bonus Percentages**. [cite_start]For example, setting 'Percentage per Day: 100%' would effectively pay double for working on that specific holiday [cite: 1551-1558]."
+    },
+    {
+        "id": "POLICY_012",
+        "module": "Policy Manager",
+        "topic": "Activity Logs",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "Who changed the leave policy?",
+            "View policy history",
+            "Audit logs for policy changes",
+            "When was the shift policy updated?"
+        ],
+        "answer": "In any policy section (Leaves, WFH, Shifts), click the **Activity** button in the top right. This opens a log showing who created, updated, or deleted policies and the timestamps for those actions. [cite_start]You can filter these logs by date to track changes over time [cite: 1333-1335, 1460-1462]."
+    },
+    {
+        "id": "SALARY_001",
+        "module": "Salary Management",
+        "topic": "Salary Management Overview",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "What is Salary Management?",
+            "Where do I manage payrolls?",
+            "How to access salary settings?",
+            "Manage employee compensation",
+            "Components of salary module"
+        ],
+        "answer": "The **Salary Management** module in EMS is used to structure and process employee compensation. It consists of two main sections: **Payrolls** (where you generate and disburse salaries) and **Salary Elements** (where you define components like Basic Pay, Allowances, and Deductions) [cite: 1560-1565]."
+    },
+    {
+        "id": "SALARY_002",
+        "module": "Salary Management",
+        "topic": "Creating a Payroll",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I create a new payroll?",
+            "Generate monthly salary sheet",
+            "Steps to run payroll",
+            "Start a new pay cycle",
+            "Calculate salaries for the month"
+        ],
+        "answer": "To create a payroll: 1. Go to **Salary Management** -> **Payrolls** -> **+ Add**. 2. Enter a **Payroll Name** (e.g., 'August Salary') and select the **Type** (e.g., Monthly). 3. Define the **Period** (Start Date, End Date) and the **Payment Date**. 4. Select **Users** (individually or via filters). 5. Check the boxes for the **Salary Elements** to include. 6. [cite_start]Click **Submit** to generate the draft [cite: 1572-1606]."
+    },
+    {
+        "id": "SALARY_003",
+        "module": "Salary Management",
+        "topic": "Payroll Dates Definitions",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "What is the difference between End Date and Payment Date?",
+            "Which date determines the salary calculation?",
+            "Payroll period explanation",
+            "Setting disbursement date"
+        ],
+        "answer": "When creating a payroll: **Start Date** and **End Date** define the period for which work days are calculated (e.g., Aug 1st to Aug 31st). The **Payment Date** is when the salary is actually disbursed to employees (e.g., Sept 5th). [cite_start]This allows flexibility if you pay in arrears [cite: 1583-1591]."
+    },
+    {
+        "id": "SALARY_004",
+        "module": "Salary Management",
+        "topic": "Publishing Payroll",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I finalize the payroll?",
+            "Make payslips visible to employees",
+            "What does 'Publish' mean in payroll?",
+            "Change payroll status from unpublished",
+            "Process the draft payroll"
+        ],
+        "answer": "After creating a payroll, it stays in **Unpublished** (draft) status. You can edit it or view details. To finalize it and make payslips available to employees, click the **Publish/Process** icon in the Actions column. [cite_start]Once published, it cannot be easily edited [cite: 1624-1632]."
+    },
+    {
+        "id": "SALARY_005",
+        "module": "Salary Management",
+        "topic": "Creating Salary Elements",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I add a new allowance?",
+            "Create a tax deduction",
+            "Setting up a bonus component",
+            "Define basic pay",
+            "Add salary component"
+        ],
+        "answer": "Go to **Salary Management** -> **Salary Elements** -> **+ Add**. Select the type (**Allowance** or **Deduction**), enter a **Name** (e.g., House Rent), and write a description. You can set a fixed value or a **Formula**. [cite_start]Finally, choose the application frequency (e.g., Monthly, Apply to All) and click **Save** [cite: 1643-1669]."
+    },
+    {
+        "id": "SALARY_006",
+        "module": "Salary Management",
+        "topic": "Salary Formulas",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "How do I write a formula for salary?",
+            "Calculate allowance as percentage of basic",
+            "Formula for tax deduction",
+            "Dynamic salary calculation examples"
+        ],
+        "answer": "In the **Formula** field of a Salary Element, you can define calculations. For example, to make an allowance worth 20% of the basic salary, you would enter: `Basic * 0.20`. For a deduction based on gross pay, you might use: `Gross - Tax`. [cite_start]This allows for dynamic payroll calculations [cite: 1655-1658]."
+    },
+    {
+        "id": "SALARY_007",
+        "module": "Salary Management",
+        "topic": "AI Assistant for Salary",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "Can AI create payrolls for me?",
+            "How to use AI for salary elements?",
+            "Auto-generate salary structure",
+            "Draft payroll using AI"
+        ],
+        "answer": "Yes, both Payrolls and Salary Elements sections have an **AI Assistant** button. [cite_start]You can type commands like 'Create a monthly payroll for August' or 'Create a Transport Allowance of 10% Basic Pay', and the system will auto-fill the forms for you to review [cite: 1568-1571, 1639-1642]."
+    },
+    {
+        "id": "SALARY_008",
+        "module": "Salary Management",
+        "topic": "Payroll Activity Logs",
+        "roles": [
+            "Admin",
+            "HR"
+        ],
+        "query_variations": [
+            "Who published the payroll?",
+            "Check payroll history",
+            "Audit salary changes",
+            "When was the salary element deleted?"
+        ],
+        "answer": "Use the **Activity** button in either the Payrolls or Salary Elements section. [cite_start]This displays a log of actions including creation, updates, publishing, or deletion of salary records, along with the user who performed the action and the timestamp [cite: 1607-1610, 1670-1673]."
+    },
+    {
+        "id": "ADMIN_001",
+        "module": "Administrator",
+        "topic": "Administrator Profile Overview",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I check system usage?",
+            "View admin profile details",
+            "Where can I see the number of active users?",
+            "Check storage limit",
+            "Admin dashboard statistics"
+        ],
+        "answer": "Go to the **Administrator** module and select **Admin Profile**. This screen displays key organization details, including the total count of **Active Users** and the current **Storage Usage** (file space used for documents/attachments) [cite: 1821-1831]."
+    },
+    {
+        "id": "ADMIN_002",
+        "module": "Administrator",
+        "topic": "Editing Organization Profile",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I change the organization name?",
+            "Update company email address",
+            "Change admin profile picture",
+            "Edit organization details"
+        ],
+        "answer": "In the **Admin Profile** section, click the **Edit Profile** button. You can upload a **Profile Photo**, update the **Organization Name** (e.g., C2O), and change the **Email Address**. [cite_start]Click **Submit** to save these changes [cite: 1833-1842]."
+    },
+    {
+        "id": "ADMIN_003",
+        "module": "Administrator",
+        "topic": "Managing Invoices",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "Where can I find my invoices?",
+            "Check billing history",
+            "View paid and unpaid invoices",
+            "Search for a specific invoice",
+            "Filter invoices by date"
+        ],
+        "answer": "Navigate to **Administrator** -> **Invoices**. [cite_start]Here you can manage billing by using the **Search Bar** (to find specific invoice numbers or customers) or filtering by **Date Range** (Start/End Date) and **Status** (Paid, Unpaid, Draft) [cite: 1844-1856]."
+    },
+    {
+        "id": "PREF_001",
+        "module": "Preferences",
+        "topic": "Accessing Roles & Permissions",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I manage user permissions?",
+            "Where are the role settings?",
+            "Control user access",
+            "Configure system roles",
+            "Open permissions module"
+        ],
+        "answer": "Go to **Preferences** -> **Permission's** (or Roles & Permissions). [cite_start]This is the central hub for defining user access, creating roles, and configuring what modules employees can see or edit [cite: 1858-1861, 1871-1872]."
+    },
+    {
+        "id": "PREF_002",
+        "module": "Preferences",
+        "topic": "Creating a New Role",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I create a new user role?",
+            "Add a custom role like 'Manager'",
+            "Define a new job role in the system",
+            "Setting up a role tag color"
+        ],
+        "answer": "In the **Permission's** section, click the **+ Add Role** (or Add/New) button. You must enter a **Role Name** (e.g., Marketing, QA Engineer), select a **Role Tag Color** for visual identification, and optionally add a **Description**. You can also assign **Users** to this role immediately. [cite_start]Click **Submit** to create it [cite: 1875-1897]."
+    },
+    {
+        "id": "PREF_003",
+        "module": "Preferences",
+        "topic": "Role Types (SEATS vs ROLE)",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "What is the difference between SEATS and ROLE?",
+            "Understanding role types",
+            "Filter roles by type",
+            "What does 'SEATS' mean in permissions?"
+        ],
+        "answer": "Roles are classified into two types: **ROLE** refers to core/system roles usually assigned to specific individuals, while **SEATS** refers to roles that can be assigned to multiple users at once (often based on license/seat count). [cite_start]You can filter the list by these types using the **Type Filter** dropdown [cite: 1918-1919, 1925-1929]."
+    },
+    {
+        "id": "PREF_004",
+        "module": "Preferences",
+        "topic": "Managing Permissions",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "How do I change what a role can do?",
+            "Update permissions for a specific role",
+            "Grant view or edit access",
+            "Preview assigned permissions"
+        ],
+        "answer": "To modify access, locate the role in the list and use the **Actions** icons. Click **Update Permissions** to assign specific rights (view, edit, delete) for different modules. [cite_start]You can also click **Preview** to see all currently assigned permissions and users for that role [cite: 1933-1935]."
+    },
+    {
+        "id": "PREF_005",
+        "module": "Preferences",
+        "topic": "Permissions Activity Log",
+        "roles": [
+            "Admin"
+        ],
+        "query_variations": [
+            "Who changed the permissions?",
+            "View role audit logs",
+            "Check history of role updates",
+            "When was a new role created?"
+        ],
+        "answer": "Click the **Activity** button in the Permissions section. This displays a log of all role-related actions (Create, Update, Delete), including the **User** who performed the action and the **Timestamp**. [cite_start]You can filter these logs by employee or date range [cite: 1903-1914]."
+    },
+    {
+        "id": "DASH_001",
+        "module": "Dashboard",
+        "topic": "Dashboard Overview",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "What is the Dashboard?",
+            "What do I see when I log in?",
+            "Overview of the home screen",
+            "Where is the main landing page?",
+            "Summary of dashboard widgets"
+        ],
+        "answer": "The Dashboard is the main landing page of SyntraFlow that appears immediately after login. It provides a quick, organized overview of your daily activities, including widgets for My Performance, Leave Balance, Today's Schedule, Meetings, Attendance insights, Pending Requests, and Upcoming Events."
+    },
+    {
+        "id": "DASH_002",
+        "module": "Dashboard",
+        "topic": "My Performance Widget",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I check my performance?",
+            "Where can I see my tasks and goals?",
+            "What does the Q4 Overview mean?",
+            "Track my to-dos",
+            "View goal progress"
+        ],
+        "answer": "The 'My Performance' widget displays your personal productivity indicators, typically for the current quarter (e.g., Q4 Overview). It features circular progress charts for: 1. **To-Dos** (Total assigned tasks vs. completed). 2. **Goals** (Quarterly goals assigned vs. completed). It shows specific counts (e.g., '2/3 - 67% Done')."
+    },
+    {
+        "id": "DASH_003",
+        "module": "Dashboard",
+        "topic": "My Leave Balance Widget",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "Where can I see my remaining leaves?",
+            "Check leave quota on dashboard",
+            "How many WFH days do I have left?",
+            "View casual and sick leave balance",
+            "What is the donut chart on the dashboard?"
+        ],
+        "answer": "The 'My Leave Balance' widget uses a color-coded donut chart to show your available quotas for Annual, Casual, Sick, Work-From-Home (WFH), and Shift Changes. It displays the total allocated leaves versus leaves consumed (e.g., 'Casual: 2.25/10')."
+    },
+    {
+        "id": "DASH_004",
+        "module": "Dashboard",
+        "topic": "Today's Schedule & Clock In",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "Where is the clock in button?",
+            "What is my shift for today?",
+            "How do I mark attendance from the dashboard?",
+            "How do I view scheduled shift time?",
+            "How do I view multiple shifts today?",
+            "How do I view my shift history",
+            "How do I view my shift schedule for the week?",
+            "How do I view my shift schedule for the month?",
+            "How do I view my shift schedule for the quarter?",
+            "How do I view my shift schedule for the year?"
+        ],
+        "answer": "The 'Today's Schedule' widget lists your assigned shifts for the current day. Each shift card shows the **Time** (e.g., 09:00 - 17:00), **Shift Type**, and **Location**. If you have multiple shifts, they appear as separate cards. For authorized users, the **Clock In** (or Clock Out) button is available directly on this card for quick attendance marking."
+    },
+    {
+        "id": "DASH_005",
+        "module": "Dashboard",
+        "topic": "Attendance Insights (Personal)",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I view my attendance trends?",
+            "How do I check my lateness history on dashboard?",
+            "What do the colors mean in the attendance chart?",
+            "How do I view weekly or monthly attendance graph?",
+            "How do I view my attendance tab?"
+        ],
+        "answer": "The 'My Attendance' tab in the Attendance widget provides a visual timeline chart of your activity. You can filter by Week, Month, or Quarter. The chart categorizes days by status using colors: **Clocked In**, **Late Clock In**, **Leave**, **Absent**, **WFH**, **Early Clock Out**, and **Breaks**. This helps you quickly visualize your punctuality and presence."
+    },
+    {
+        "id": "DASH_006",
+        "module": "Dashboard",
+        "topic": "Team Attendance (Manager View)",
+        "roles": [
+            "Manager",
+            "Team Lead"
+        ],
+        "query_variations": [
+            "How do I see my team's attendance on the dashboard?",
+            "Manager view for attendance",
+            "Check team presence graph",
+            "Switch between different teams",
+            "Monitor team punctuality"
+        ],
+        "answer": "Managers and Team Leads see a **'Team Attendance'** tab within the Attendance widget. This allows them to monitor the attendance trends of their team members over weekly, monthly, or quarterly periods. If you manage multiple groups, use the **Team Selector** dropdown to switch views between different teams."
+    },
+    {
+        "id": "DASH_007",
+        "module": "Dashboard",
+        "topic": "Requests Widget",
+        "roles": [
+            "All Users",
+            "Manager"
+        ],
+        "query_variations": [
+            "Where can I see my pending requests?",
+            "Check status of leave application",
+            "Manager approval on dashboard",
+            "Withdraw a request from dashboard",
+            "View recent requests"
+        ],
+        "answer": "The Requests widget has two tabs: 1. **My Requests** (All Users): Shows your recent Leave, WFH, or Shift Change requests with their status (Pending, Approved). You can view details or withdraw them here. 2. **Team Requests** (Managers Only): Displays requests from team members that need approval. Managers can Approve, Reject, or View Details directly from the dashboard."
+    },
+    {
+        "id": "DASH_008",
+        "module": "Dashboard",
+        "topic": "Today's Meetings",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "Do I have any meetings today?",
+            "Where is the meeting link?",
+            "Join a meeting from dashboard",
+            "See meeting schedule",
+            "Upcoming meetings list"
+        ],
+        "answer": "The 'Today's Meetings' widget lists all meetings scheduled for the current day. Each entry shows the **Meeting Title**, **Time** (Start - End), and a **Join** button (or video icon) to quickly enter the meeting if it is online."
+    },
+    {
+        "id": "DASH_009",
+        "module": "Dashboard",
+        "topic": "Current Openings (ATS)",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "Are there any internal job postings?",
+            "Are there any external job postings?",
+            "View current job openings",
+            "Check vacancies in the company",
+            "Apply for a new role"
+        ],
+        "answer": "The 'Current Openings' widget displays active job vacancies created in the ATS module. It shows the **Job Title**, **Job Type** (e.g., Fulltime), **Salary Range**, and application dates. Click the **View** button to see full details or apply for the internal position."
+    },
+    {
+        "id": "DASH_010",
+        "module": "Dashboard",
+        "topic": "Upcoming Events & Holidays",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "When is the next holiday?",
+            "View company events calendar",
+            "Check upcoming public holidays",
+            "Is there an event this month?",
+            "Calendar widget"
+        ],
+        "answer": "The 'Upcoming Events & Holidays' widget shows a monthly calendar view. Dates with **Holidays**, **Celebrations**, or **Company Events** are highlighted. A list below the calendar provides details of specific events for the selected month (e.g., 'Nov 09: Christmas')."
+    },
+    {
+        "id": "CAL_001",
+        "module": "Calendar",
+        "topic": "Calendar Overview",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "What is the Calendar module?",
+            "Where can I schedule meetings?",
+            "Access my work calendar",
+            "View upcoming events and meetings",
+            "Calendar interface guide"
+        ],
+        "answer": "The Calendar module is a centralized planner where you can organize meetings, events, and tasks. It displays a view of your schedule (Day, Week, or Month). You can access it from the left-side navigation panel. It features a '+ Create' button for new events, navigation arrows for dates, and a 'Time Insights' panel [cite: 476-484]."
+    },
+    {
+        "id": "CAL_002",
+        "module": "Calendar",
+        "topic": "Creating a Meeting",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I schedule a meeting?",
+            "Create a new event",
+            "Set up a team meeting",
+            "Add an appointment to calendar",
+            "Invite people to a meeting"
+        ],
+        "answer": "To create a meeting: 1. Click the **+ Create** button (top-left) or click a time slot on the grid. 2. Enter the **Title** (e.g., 'Standup'). 3. Add **Participants** by name/email. 4. Set **Start/End Time** (or check 'All Day'). 5. Add a **Location** (room or online link). 6. Optionally set **Repeats** (Daily/Weekly) and a **Color Category**. 7. [cite_start]Click **Save** to send invites [cite: 486-514]."
+    },
+    {
+        "id": "CAL_003",
+        "module": "Calendar",
+        "topic": "Editing or Canceling Meetings",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How do I cancel a meeting?",
+            "Edit meeting details",
+            "Reschedule an event",
+            "Change meeting time",
+            "Delete a calendar event"
+        ],
+        "answer": "Click on the specific meeting bar in your calendar view to open the **Edit Meeting** modal. [cite_start]From here, you can **Edit details** (change time, participants, location) or click **Cancel Meeting** to remove the event and notify all participants [cite: 516-520]."
+    },
+    {
+        "id": "CAL_004",
+        "module": "Calendar",
+        "topic": "Calendar Views & Navigation",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How to switch to weekly view?",
+            "View calendar by day",
+            "Go to a specific date",
+            "Navigate to next month",
+            "See today's schedule"
+        ],
+        "answer": "Use the **View Selector** in the top-right to switch between **Day**, **Week**, and **Month** views. Use the **Left (<)** and **Right (>)** arrows to move between periods, or click **Today** to jump to the current date. [cite_start]You can also use the **Date Picker** on the left sidebar to jump to a specific date [cite: 522-537]."
+    },
+    {
+        "id": "CAL_005",
+        "module": "Calendar",
+        "topic": "Searching for People/Teams",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How to check a colleague's availability?",
+            "View team calendar",
+            "Search for a user's schedule",
+            "Find free time for a team member",
+            "People search bar"
+        ],
+        "answer": "Use the **Search for people** bar on the left side of the calendar. You can type a **Team Name**, **User Name**, or **Email**. [cite_start]This allows you to view their calendar (depending on permissions) to check availability before scheduling a meeting [cite: 538-547]."
+    },
+    {
+        "id": "CAL_006",
+        "module": "Calendar",
+        "topic": "Time Insights",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How much time do I spend in meetings?",
+            "View my meeting analytics",
+            "Check total meeting hours",
+            "Weekly time distribution",
+            "What is Time Insights?"
+        ],
+        "answer": "The **Time Insights** section (bottom left) provides analytics on your schedule. It displays the **Total hours** spent in meetings for the week and the **Number of meetings**. A visual bar shows the distribution of your time. [cite_start]Click 'More insights' for detailed data [cite: 548-556]."
+    },
+    {
+        "id": "CAL_007",
+        "module": "Calendar",
+        "topic": "Managing Calendars & Colors",
+        "roles": [
+            "All Users"
+        ],
+        "query_variations": [
+            "How to change event colors?",
+            "Create a new calendar category",
+            "Organize meetings by color",
+            "Manage my calendars",
+            "Add a 'Personal' calendar category"
+        ],
+        "answer": "Under the **My Calendars** section, click **Manage Colors**. This opens a modal where you can **Add Category** (create new labels like 'Project X'), **Edit** existing categories, or change the **Color** assigned to them. [cite_start]This helps visually group different types of meetings (e.g., Blue for Team, Red for Urgent) [cite: 557-571]."
+    }
+]
